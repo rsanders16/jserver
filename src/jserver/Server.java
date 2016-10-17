@@ -23,9 +23,6 @@ public class Server
             {
                 System.out.println("Shutting down.  Will not allow any more connections");
                 running = false;
-
-                while (true)
-                    ;
             }
         });
 
